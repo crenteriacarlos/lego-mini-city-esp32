@@ -11,16 +11,18 @@ La idea nace de querer automatizar una ciudad completa — con lógica real de t
 ## Estructura del repositorio
 
 ```
-episodio-00-intro/          → sin código, video de introducción al proyecto
-episodio-01-primer-led/     → primer contacto con el ESP32, un LED controlado por código
-episodio-02-semaforo/       → semáforo de 3 LEDs con lógica de tiempos
-episodio-03-planeacion/     → sin código, planeación del mapa completo de la ciudad
+episodio-00-intro/           → sin código, introducción al proyecto
+episodio-01-primer-led/      → primer contacto con el ESP32, un LED controlado por código
+episodio-02-semaforo/        → semáforo de 3 LEDs con lógica de tiempos
+episodio-03-planeacion/      → sin código, la base, los pilares y la caja de electrónica
+episodio-04-primera-esquina/ → el semáforo impreso e instalado en la ciudad
 ```
 
-Cada carpeta de episodio con código incluye:
+Cada carpeta incluye un `notas.md` con los componentes, los pines usados, las
+decisiones de diseño y los problemas encontrados. Los episodios con código
+llevan además:
 
 - `codigo.py` — el código en MicroPython de ese episodio
-- `notas.md` — componentes, pines usados, decisiones tomadas y problemas encontrados
 - `diagram.json` — el circuito completo, listo para cargar en Wokwi
 
 ## Pruébalo sin hardware (Wokwi)
